@@ -8,7 +8,7 @@ Get deploy.sh
 
 Go to a safe directory then
 
-wget https://github.com/TheCause/TJS-Env/blob/master/deploy.sh
+wget https://raw.github.com/TheCause/TJS-Env/master/deploy.sh
 
 chmod +x ./deploy.sh
 
