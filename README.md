@@ -10,7 +10,7 @@ Go to a safe directory then
 
 wget https://github.com/TheCause/TJS-Env/blob/master/deploy.sh
 
-chmod +x
+chmod +x ./deploy.sh
 
 ./deploy.sh
 
