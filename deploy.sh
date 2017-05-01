@@ -36,3 +36,6 @@ wget https://cdn.knightlab.com/libs/timeline3/latest/css/icons/tl-icons.woff
 cd ../../../
 ## suppression de l'initialisation de google analytics
 sed -i $(grep -nr "this._initAnalytics();" public/js/timeline.js | cut -d: -f1)d public/js/timeline.js
+
+## Création du fichier my.json
+touch my.json
