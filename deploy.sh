@@ -17,6 +17,10 @@ echo "const jsonServer = require('json-server');const server = jsonServer.create
 mkdir public
 cd public
 wget https://raw.github.com/TheCause/TJS-Env/master/index.html
+
+## Création du fichier my.json
+wget https://raw.github.com/TheCause/TJS-Env/master/my.json
+
 mkdir js
 cd js
 wget https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js
@@ -36,6 +40,3 @@ wget https://cdn.knightlab.com/libs/timeline3/latest/css/icons/tl-icons.woff
 cd ../../../
 ## suppression de l'initialisation de google analytics
 sed -i $(grep -nr "this._initAnalytics();" public/js/timeline.js | cut -d: -f1)d public/js/timeline.js
-
-## Création du fichier my.json
-touch my.json
