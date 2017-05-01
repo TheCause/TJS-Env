@@ -16,6 +16,7 @@ echo "const jsonServer = require('json-server');const server = jsonServer.create
 ## Creation de l'arborescene public et récupération des fichiers js/css/font
 mkdir public
 cd public
+wget https://github.com/TheCause/TJS-Env/blob/master/index.html
 mkdir js
 cd js
 wget https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js
